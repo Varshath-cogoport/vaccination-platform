@@ -89,10 +89,6 @@ func (a *Application) GetBookings() []Booking {
 	return app.bookings
 }
 
-func (a *Application) GetBookingsPerDay() []Booking {
-	return app.bookings
-}
-
 func (a *Application) GetCentersForDistrict(districtName string) []Center {
 	var centers []Center
 	for _, center := range app.centers {
